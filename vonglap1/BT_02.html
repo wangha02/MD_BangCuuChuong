@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let flag = true
+    let i = +prompt("nhiet do")
+    while (flag) {
+        if (i > 100) {
+            i = +prompt("nhiet do qua cao")
+        } else {
+            if (i < 20) {
+                i = +prompt("nhiet do qua thap")
+            } else {
+                flag = false
+                document.write("")
+            }
+        }
+    }
+</script>
+</body>
+</html>

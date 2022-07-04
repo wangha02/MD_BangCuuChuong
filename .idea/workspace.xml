@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd4fa1d-7c4a-4313-8566-22be4e5ba79e" name="Changes" comment="" />
+    <list default="true" id="6fd4fa1d-7c4a-4313-8566-22be4e5ba79e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vonglap1/BT_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap1/BT_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap1/BT_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap1/BT_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap1/BT_06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap2/BT_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vonglap1/BT_01.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +27,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BRqFFs8ei9S51W0nxSt9a6BE5Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,10 +45,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\untitled\vonglap1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,12 +66,24 @@
       <workItem from="1656879142811" duration="95000" />
       <workItem from="1656896179815" duration="3090000" />
       <workItem from="1656899303615" duration="4000" />
-      <workItem from="1656899315269" duration="3040000" />
+      <workItem from="1656899315269" duration="6122000" />
+      <workItem from="1656905601391" duration="15069000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

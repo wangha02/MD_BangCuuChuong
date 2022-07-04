@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let f1 = 1, f2 = 1;
+    document.writeln(f1);
+    document.writeln(f2);
+
+    for (let i = 0; i < 18; i++) {
+        let f3 = f1 + f2;
+        if (i >= 2 && i < 10) {
+            document.writeln(f3);
+        }
+
+        f1 = f2;
+        f2 = f3;
+
+    }
+
+</script>
+
+
+</body>
+</html>
