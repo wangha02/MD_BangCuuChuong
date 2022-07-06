@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd4fa1d-7c4a-4313-8566-22be4e5ba79e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B1_Hàm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B2_HÀM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B3_HAM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_11CacHam/BT_LTap Mang1/BT1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_CaRo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/b8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_Mang2/B1_Mang2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_Mang2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_Mang2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BT_Từ Điển.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRUD_TaoWeb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/B2_Mảng02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testt1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fd4fa1d-7c4a-4313-8566-22be4e5ba79e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +60,7 @@
       <workItem from="1656954139862" duration="728000" />
       <workItem from="1656988710396" duration="15596000" />
       <workItem from="1657076144994" duration="7810000" />
+      <workItem from="1657090582012" duration="317000" />
     </task>
     <servers />
   </component>
