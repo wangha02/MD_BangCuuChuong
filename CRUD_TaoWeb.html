@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="color: blue; text-align: center">========================JV062022============================</h1>
+<input id="newStudent" type="text">
+<button onclick="createStudent()">Create Student</button>
+<input id="search" placeholder="Search Student ....." type="text" oninput="actionSearch()">
+<span id="validate"></span>
+<table border="1" style="width: 100%; text-align: center">
+    <th>STT</th>
+    <th>NAME</th>
+    <th>EDIT</th>
+    <th>DELETE</th>
+    <tbody id="drawTable">
+    </tbody>
+</table>
+<script>
+    let listStudents = ['Hùng Supper', 'Huy Sa cơ', 'Chí Lỡ Bước', 'Phú Lê', 'Chi Điên']
+    let listSearch = [];
+    function showListStdent() {
+        let drawTable = '';
+        //Cách 1: Vẽ bằng cách cộng chuỗi thông thường trong '' các biến sẽ được biding qua ++
+        for (let i = 0; i < listStudents.length; i++) {
+            let j = i + 1;
+            //Cách 2: Sử dụng String Templage JS6 chuỗi ở trong `` các biến sẽ được biding qua ${}
+            drawTable += `<tr>
+                        <td>${j}</td>
+                        <td>${listStudents[i]}</td>
+                        <td><button style="background-color: blue; color: white; border-radius: 20%" onclick="updateStudent(${i})">Edit</button></td>
+                         <td><button style="background-color: red; color: white; border-radius: 20%" onclick="deleteStudent(${i})">Delete</button></td>
+                        </tr>`
+        }
+        document.getElementById('drawTable').innerHTML = drawTable;
+    }
+
+    showListStdent();
+
+    function createStudent() {
+        let newStudent = document.getElementById('newStudent').value;
+        if (newStudent.trim() === '') {
+            document.getElementById('validate').innerHTML = '<span style="color: red">The name is required! Please try again!</span>'
+        } else {
+            console.log('newStudent ===>', newStudent)
+            listStudents.push(newStudent);
+            document.getElementById('validate').innerHTML = '<span style="color: blue">Create Success!!</span>'
+            showListStdent();
+        }
+    }
+    function updateStudent(id) {
+        console.log('id ===========', id)
+        let editStudent = prompt('Enter the name to update Student', listStudents[id])
+        if(editStudent.trim()===''){
+            document.getElementById('validate').innerHTML = '<span style="color: red">The name is required! Please try again!</span>'
+        } else {
+            listStudents[id] = editStudent;
+            document.getElementById('validate').innerHTML = '<span style="color: blueviolet">Update Success!!</span>'
+            showListStdent();
+        }
+    }
+    function deleteStudent(id) {
+        listStudents.splice(id,1)
+        showListStdent()
+    }
+    function showListSearch() {
+        let drawTable = '';
+        //Cách 1: Vẽ bằng cách cộng chuỗi thông thường trong '' các biến sẽ được biding qua ++
+        for (let i = 0; i < listSearch.length; i++) {
+            let j = i + 1;
+            // drawTable+= '<tr>'+
+            //     '<td>'+j+'</td>'+
+            //     '<td>'+listStudents[i]+'</td>'
+            // +'</tr>'
+
+            //Cách 2: Sử dụng String Templage JS6 chuỗi ở trong `` các biến sẽ được biding qua ${}
+            drawTable += `<tr>
+                        <td>${j}</td>
+                        <td>${listSearch[i]}</td>
+                        <td><button style="background-color: blue; color: white; border-radius: 20%" onclick="updateStudent(${i})">Edit</button></td>
+                         <td><button style="background-color: red; color: white; border-radius: 20%" onclick="deleteStudent(${i})">Delete</button></td>
+                        </tr>`
+        }
+        document.getElementById('drawTable').innerHTML = drawTable;
+    }
+    function actionSearch() {
+        let search = document.getElementById('search').value;
+        listSearch = [];
+        console.log('value search ----> ',search)
+        if(search.trim()===''){
+            showListStdent();
+            return;
+        }
+        for (let i = 0; i < listStudents.length; i++) {
+            if(search.toLowerCase()===listStudents[i].toLowerCase()){
+                listSearch.push(listStudents[i])
+            }
+        }
+        showListSearch();
+    }
+</script>
+</body>
+</html>

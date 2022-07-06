@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fd4fa1d-7c4a-4313-8566-22be4e5ba79e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vonglap1/BT_02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap1/BT_03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap1/BT_04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap1/BT_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap1/BT_06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap2/BT_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglap2/BT_vonglap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B1_Hàm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B2_HÀM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_11CacHam/B3_HAM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_11CacHam/BT_LTap Mang1/BT1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_CaRo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/B9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_LTap Mang2/b8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_Mang2/B1_Mang2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_Mang2/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_Mang2/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BT_Từ Điển.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUD_TaoWeb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/B2_Mảng02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testt1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vonglap1/BT_01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\untitled\BT_Mang2" />
       <recent name="C:\untitled\vonglap1" />
     </key>
   </component>
@@ -67,7 +80,11 @@
       <workItem from="1656896179815" duration="3090000" />
       <workItem from="1656899303615" duration="4000" />
       <workItem from="1656899315269" duration="6122000" />
-      <workItem from="1656905601391" duration="15069000" />
+      <workItem from="1656905601391" duration="15639000" />
+      <workItem from="1656948369193" duration="1000" />
+      <workItem from="1656954139862" duration="728000" />
+      <workItem from="1656988710396" duration="15596000" />
+      <workItem from="1657076144994" duration="7810000" />
     </task>
     <servers />
   </component>

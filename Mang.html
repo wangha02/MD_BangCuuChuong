@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center">
+    <h2>NHẬP VÀO ĐÂY</h2>
+    <textarea id="hienthi" rows="4" cols="50" onkeypress="xuLyNhap(event)">
+</textarea>
+</div>
+<script>
+    let count=0;
+    let mang=[]
+    let loiNhan = "hê lô mai phen :)) Stop! phen đừng nhập nữa"
+    function xuLyNhap(event) {
+        mang.push(loiNhan[count])
+        event.preventDefault();
+        document.getElementById("hienthi").value=mang.join("")
+        count++
+        if (count>loiNhan.length){
+            document.getElementById("hienthi").value="";
+            count =0;
+            mang=[];
+        }
+    }
+</script>
+
+
+
+</script>
+</body>
+</html>

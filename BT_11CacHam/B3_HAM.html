@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let text = "The Development environment shouldn't be enabled for deployed applications. It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the Development environment by setting the ASPNETCORE_ENVIRONMENT environment variable to Development and restarting the app.";
+  let chuHoa = "QWERTYUIOPASDFGHJKLZXCVBNM";
+  let chuThuong = "qwertyuiopasdfghjklzxcvbnm";
+  let result=[];
+  let chuDuocPhepInHoa = "la";
+  for (let i =0 ; i<text.length;i++){
+    if (chuDuocPhepInHoa.indexOf(text[i])!==-1){
+      result.push(text[i].toUpperCase())
+    }else if (chuHoa.indexOf(text[i])===-1){
+      result.push(text[i])
+    }else if (chuThuong.indexOf(text[i])===-1){
+      result.push(text[i].toLowerCase())
+    }
+  }
+  console.log(result.join(""))
+</script>
+</body>
+</html>

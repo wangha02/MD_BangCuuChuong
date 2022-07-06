@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Từ Điển</title>
+</head>
+<body>
+<input id="nhap" type="text">
+<button id="dich" onclick="dich()">Anh Việt :))</button>
+<button id="dich2" onclick="dich2()">Việt Anh :))</button>
+
+<h1 id="ketQua"></h1>
+
+
+<script>
+    let eng = ["go", "gost", "heal", "attack", 'follow', 'back', 'down', 'top', 'mid', 'support', 'jungle'];
+    let vns = ["đi", "đi nhanh", "hồi máu", "tấn công", 'đi theo', 'lui', 'xuống', 'trên', 'giữa', 'hỗ trợ', 'rừng'];
+
+    function dich() {
+        let vitri = -1
+        let duLieu = document.getElementById("nhap").value;
+        for (let i = 0; i < eng.length; i++) {
+                if (duLieu == eng[i]) {
+                vitri = i;
+            }
+        }
+        if (vitri == -1) {
+            document.getElementById("ketQua").innerHTML = "Không có trong từ điển !"
+        } else {
+            document.getElementById("ketQua").innerHTML = vns[vitri]
+        }
+    }
+
+    function dich2() {
+        let vitri2 = -1
+        let dulieu2 = document.getElementById("nhap").value;
+        for (let i = 0; i < vns.length; i++)
+        if (dulieu2 == vns[i]) {
+            vitri2 = i;
+        }
+        if (vitri2 == -1){
+            document.getElementById("ketQua").innerHTML = "Viết vàoooooooo "
+        }else {
+            document.getElementById("ketQua").innerHTML = eng[vitri2]
+        }
+    }
+
+
+</script>
+
+
+</body>
+</html>
